@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>关于 &middot; zs5460</title>
+  <title>win8.1右键菜单反应慢的解决方法 &middot; zs5460</title>
 
   
   <link type="text/css" rel="stylesheet" href="https://zs5460.github.io/css/print.css" media="print">
@@ -49,9 +49,15 @@
 
     <div class="content container">
     <div class="post">
-  <h1>关于</h1>
-  <span class="post-date">Thu, May 24, 2018</span>
-  <p>其实，并没有什么好说的</p>
+  <h1>win8.1右键菜单反应慢的解决方法</h1>
+  <span class="post-date">Fri, May 25, 2018</span>
+  <ol>
+<li><p>打开注册表</p></li>
+
+<li><p>依次展开：HKEY_CLASSES_ROOT\Directory\background\shellex\ContextMenuHandlers</p></li>
+
+<li><p>将ContextMenuHandlers注册表项目下除“New”注册表项目外的所有键值全部删除，一般就可以解决鼠标右键反应慢的问题了。</p></li>
+</ol>
 
 </div>
 
