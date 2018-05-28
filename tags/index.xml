@@ -10,5 +10,14 @@
 	<atom:link href="https://zs5460.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Win8</title>
+      <link>https://zs5460.github.io/tags/win8/</link>
+      <pubDate>Fri, 25 May 2018 15:42:07 +0800</pubDate>
+      
+      <guid>https://zs5460.github.io/tags/win8/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

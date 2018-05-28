@@ -13,23 +13,8 @@
   </url>
   
   <url>
-    <loc>https://zs5460.github.io/</loc>
+    <loc>https://zs5460.github.io/categories/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zs5460.github.io/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zs5460.github.io/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zs5460.github.io/"
-                />
   </url>
   
   <url>
@@ -39,7 +24,24 @@
   </url>
   
   <url>
+    <loc>https://zs5460.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zs5460.github.io/tags/win8/</loc>
+    <lastmod>2018-05-25T15:42:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://zs5460.github.io/</loc>
+    <lastmod>2018-05-25T15:42:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zs5460.github.io/categories/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2018-05-25T15:42:07+08:00</lastmod>
     <priority>0</priority>
   </url>
