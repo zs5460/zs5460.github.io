@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zs5460.github.io/post/go-build-with-icon/</loc>
+    <lastmod>2018-05-31T14:24:05+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zs5460.github.io/post/win8-right-key-slowly/</loc>
     <lastmod>2018-05-25T15:42:07+08:00</lastmod>
   </url>
@@ -18,13 +23,20 @@
   </url>
   
   <url>
+    <loc>https://zs5460.github.io/tags/golang/</loc>
+    <lastmod>2018-05-31T14:24:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://zs5460.github.io/post/</loc>
-    <lastmod>2018-05-25T15:42:07+08:00</lastmod>
+    <lastmod>2018-05-31T14:24:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://zs5460.github.io/tags/</loc>
+    <lastmod>2018-05-31T14:24:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,13 +48,19 @@
   
   <url>
     <loc>https://zs5460.github.io/</loc>
-    <lastmod>2018-05-25T15:42:07+08:00</lastmod>
+    <lastmod>2018-05-31T14:24:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://zs5460.github.io/categories/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2018-05-25T15:42:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zs5460.github.io/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2018-05-31T14:24:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   

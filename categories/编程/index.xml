@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on zs5460</title>
-    <link>https://zs5460.github.io/post/</link>
-    <description>Recent content in Posts on zs5460</description>
+    <title>编程 on zs5460</title>
+    <link>https://zs5460.github.io/categories/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 31 May 2018 14:24:05 +0800</lastBuildDate>
     
-	<atom:link href="https://zs5460.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zs5460.github.io/categories/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,18 +21,6 @@
  在syso目录下新建syso.go，内容如下：
 package syso  main.go中加入引用“import _ &amp;ldquo;xxx/syso&amp;rdquo;”
  go build 生成的exe就会有图标了
-  </description>
-    </item>
-    
-    <item>
-      <title>win8.1右键菜单反应慢的解决方法</title>
-      <link>https://zs5460.github.io/post/win8-right-key-slowly/</link>
-      <pubDate>Fri, 25 May 2018 15:42:07 +0800</pubDate>
-      
-      <guid>https://zs5460.github.io/post/win8-right-key-slowly/</guid>
-      <description> 打开注册表
- 依次展开：HKEY_CLASSES_ROOT\Directory\background\shellex\ContextMenuHandlers
- 将ContextMenuHandlers注册表项目下除“New”注册表项目外的所有键值全部删除，一般就可以解决鼠标右键反应慢的问题了。
   </description>
     </item>
     
