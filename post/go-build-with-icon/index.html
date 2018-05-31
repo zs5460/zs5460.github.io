@@ -127,13 +127,14 @@
 <h2 id="准备工作">准备工作</h2>
 
 <ol>
-<li>获取rsrc
-<code>
-go get github.com/akavel/rsrc
-</code></li>
-<li>建立favicon.manifest文件,内容如下：
-<code>
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+<li><p>获取rsrc</p>
+
+<pre><code>go get github.com/akavel/rsrc
+</code></pre></li>
+
+<li><p>建立favicon.manifest文件,内容如下：</p>
+
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
 &lt;assembly xmlns=&quot;urn:schemas-microsoft-com:asm.v1&quot; manifestVersion=&quot;1.0&quot; xmlns:asmv3=&quot;urn:schemas-microsoft-com:asm.v3&quot;&gt;
 	&lt;assemblyIdentity version=&quot;1.0.0.0&quot; processorArchitecture=&quot;*&quot; name=&quot;SomeFunkyNameHere&quot; type=&quot;win32&quot;/&gt;
 	&lt;dependency&gt;
@@ -147,11 +148,12 @@ go get github.com/akavel/rsrc
 		&lt;/asmv3:windowsSettings&gt;
 	&lt;/asmv3:application&gt;
 &lt;/assembly&gt;
-</code></li>
-<li>运行rsrc，生成syso
-<code>
-rsrc -manifest favicon.manifest -o myapp.syso -ico myapp.ico
-</code></li>
+</code></pre></li>
+
+<li><p>运行rsrc，生成syso</p>
+
+<pre><code>rsrc -manifest favicon.manifest -o myapp.syso -ico myapp.ico
+</code></pre></li>
 </ol>
 
 <h2 id="实战">实战</h2>
