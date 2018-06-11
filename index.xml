@@ -6,7 +6,7 @@
     <description>Recent content on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 31 May 2018 14:24:05 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 Jan 2016 14:24:05 +0800</lastBuildDate>
     
 	<atom:link href="https://zs5460.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Go生成带图标的控制台程序</title>
       <link>https://zs5460.github.io/post/go-build-with-icon/</link>
-      <pubDate>Thu, 31 May 2018 14:24:05 +0800</pubDate>
+      <pubDate>Sun, 31 Jan 2016 14:24:05 +0800</pubDate>
       
       <guid>https://zs5460.github.io/post/go-build-with-icon/</guid>
       <description> 准备工作  获取rsrc
@@ -22,15 +22,15 @@ go get github.com/akavel/rsrc  建立favicon.manifest文件,内容如下：
 &amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt; &amp;lt;assembly xmlns=&amp;quot;urn:schemas-microsoft-com:asm.v1&amp;quot; manifestVersion=&amp;quot;1.0&amp;quot; xmlns:asmv3=&amp;quot;urn:schemas-microsoft-com:asm.v3&amp;quot;&amp;gt; &amp;lt;assemblyIdentity version=&amp;quot;1.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; name=&amp;quot;SomeFunkyNameHere&amp;quot; type=&amp;quot;win32&amp;quot;/&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;dependentAssembly&amp;gt; &amp;lt;assemblyIdentity type=&amp;quot;win32&amp;quot; name=&amp;quot;Microsoft.Windows.Common-Controls&amp;quot; version=&amp;quot;6.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; publicKeyToken=&amp;quot;6595b64144ccf1df&amp;quot; language=&amp;quot;*&amp;quot;/&amp;gt; &amp;lt;/dependentAssembly&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;asmv3:application&amp;gt; &amp;lt;asmv3:windowsSettings xmlns=&amp;quot;http://schemas.microsoft.com/SMI/2005/WindowsSettings&amp;quot;&amp;gt; &amp;lt;dpiAware&amp;gt;true&amp;lt;/dpiAware&amp;gt; &amp;lt;/asmv3:windowsSettings&amp;gt; &amp;lt;/asmv3:application&amp;gt; &amp;lt;/assembly&amp;gt;  运行rsrc，生成syso
 rsrc -manifest favicon.manifest -o myapp.syso -ico myapp.ico   实战  在项目根目录下建立syso目录，并将myapp.syso拷贝至目录下
  在syso目录下新建syso.go，内容如下：
-package syso  main.go中加入引用“import _ &amp;ldquo;xxx/syso&amp;rdquo;”
- go build 生成的exe就会有图标了
+package syso  main.go中加入引用
+import _ &amp;quot;xxx/syso&amp;quot;  go build 生成的exe就会有图标了
   </description>
     </item>
     
     <item>
       <title>win8.1右键菜单反应慢的解决方法</title>
       <link>https://zs5460.github.io/post/win8-right-key-slowly/</link>
-      <pubDate>Fri, 25 May 2018 15:42:07 +0800</pubDate>
+      <pubDate>Mon, 25 May 2015 15:42:07 +0800</pubDate>
       
       <guid>https://zs5460.github.io/post/win8-right-key-slowly/</guid>
       <description> 打开注册表
@@ -42,7 +42,7 @@ package syso  main.go中加入引用“import _ &amp;ldquo;xxx/syso&amp;rdquo;�
     <item>
       <title>关于</title>
       <link>https://zs5460.github.io/about/</link>
-      <pubDate>Thu, 24 May 2018 16:01:00 +0800</pubDate>
+      <pubDate>Sun, 20 May 2012 13:14:00 +0800</pubDate>
       
       <guid>https://zs5460.github.io/about/</guid>
       <description>其实，并没有什么好说的</description>

@@ -93,7 +93,7 @@
     <span class="text-left post-date meta">
             
        
-        <i class="fas fa-calendar-alt"></i> May 31, 2018
+        <i class="fas fa-calendar-alt"></i> Jan 31, 2016
       
       
         
@@ -129,12 +129,12 @@
 <ol>
 <li><p>获取rsrc</p>
 
-<pre><code>go get github.com/akavel/rsrc
+<pre><code class="language-shell">go get github.com/akavel/rsrc
 </code></pre></li>
 
 <li><p>建立favicon.manifest文件,内容如下：</p>
 
-<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
 &lt;assembly xmlns=&quot;urn:schemas-microsoft-com:asm.v1&quot; manifestVersion=&quot;1.0&quot; xmlns:asmv3=&quot;urn:schemas-microsoft-com:asm.v3&quot;&gt;
 	&lt;assemblyIdentity version=&quot;1.0.0.0&quot; processorArchitecture=&quot;*&quot; name=&quot;SomeFunkyNameHere&quot; type=&quot;win32&quot;/&gt;
 	&lt;dependency&gt;
@@ -152,7 +152,7 @@
 
 <li><p>运行rsrc，生成syso</p>
 
-<pre><code>rsrc -manifest favicon.manifest -o myapp.syso -ico myapp.ico
+<pre><code class="language-shell">rsrc -manifest favicon.manifest -o myapp.syso -ico myapp.ico
 </code></pre></li>
 </ol>
 
@@ -166,7 +166,10 @@
 <pre><code>package syso
 </code></pre></li>
 
-<li><p>main.go中加入引用“import _ &ldquo;xxx/syso&rdquo;”</p></li>
+<li><p>main.go中加入引用</p>
+
+<pre><code>import _ &quot;xxx/syso&quot;
+</code></pre></li>
 
 <li><p>go build 生成的exe就会有图标了</p></li>
 </ol>
