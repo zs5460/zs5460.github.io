@@ -10,8 +10,8 @@
     
     <meta name="generator" content="Hugo 0.41" />
     
-    <title>关于 &middot; zs5460</title>
-    <meta content="关于 - zs5460" property="og:title">
+    <title>Go生成带图标的控制台程序 &middot; zs5460</title>
+    <meta content="Go生成带图标的控制台程序 - zs5460" property="og:title">
     <meta content=" - " property="og:description">
     <!-- CSS -->
     
@@ -89,15 +89,34 @@
 
         <div class="content container">
             <div class="post">
-  <h1>关于</h1>
+  <h1>Go生成带图标的控制台程序</h1>
   
   <div class="col-sm-12 col-md-12">
     <span class="text-left post-date meta">
             
        
-        <i class="fas fa-calendar-alt"></i> May 20, 2012
+        <i class="fas fa-calendar-alt"></i> Jan 31, 2016
       
       
+        
+        
+            in
+            
+            
+                <a class="meta" href="/categories/%E7%BC%96%E7%A8%8B">编程</a>
+                
+            
+        
+      
+      
+      
+        
+        
+            <br/>
+             <i class="fas fa-tags"></i>
+            
+            <a class="meta" href="/tags/golang">golang</a>
+        
       
       
       <br/>
@@ -105,7 +124,57 @@
       </span>  
   </div>    
   
-  <p>其实，并没有什么好说的</p>
+  
+
+<h2 id="准备工作">准备工作</h2>
+
+<ol>
+<li><p>获取rsrc</p>
+
+<pre><code class="language-shell">go get github.com/akavel/rsrc
+</code></pre></li>
+
+<li><p>建立favicon.manifest文件,内容如下：</p>
+
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;assembly xmlns=&quot;urn:schemas-microsoft-com:asm.v1&quot; manifestVersion=&quot;1.0&quot; xmlns:asmv3=&quot;urn:schemas-microsoft-com:asm.v3&quot;&gt;
+	&lt;assemblyIdentity version=&quot;1.0.0.0&quot; processorArchitecture=&quot;*&quot; name=&quot;SomeFunkyNameHere&quot; type=&quot;win32&quot;/&gt;
+	&lt;dependency&gt;
+		&lt;dependentAssembly&gt;
+			&lt;assemblyIdentity type=&quot;win32&quot; name=&quot;Microsoft.Windows.Common-Controls&quot; version=&quot;6.0.0.0&quot; processorArchitecture=&quot;*&quot; publicKeyToken=&quot;6595b64144ccf1df&quot; language=&quot;*&quot;/&gt;
+		&lt;/dependentAssembly&gt;
+	&lt;/dependency&gt;
+	&lt;asmv3:application&gt;
+		&lt;asmv3:windowsSettings xmlns=&quot;http://schemas.microsoft.com/SMI/2005/WindowsSettings&quot;&gt;
+			&lt;dpiAware&gt;true&lt;/dpiAware&gt;
+		&lt;/asmv3:windowsSettings&gt;
+	&lt;/asmv3:application&gt;
+&lt;/assembly&gt;
+</code></pre></li>
+
+<li><p>运行rsrc，生成syso</p>
+
+<pre><code class="language-shell">rsrc -manifest favicon.manifest -o myapp.syso -ico myapp.ico
+</code></pre></li>
+</ol>
+
+<h2 id="实战">实战</h2>
+
+<ol>
+<li><p>在项目根目录下建立syso目录，并将myapp.syso拷贝至目录下</p></li>
+
+<li><p>在syso目录下新建syso.go，内容如下：</p>
+
+<pre><code class="language-go">package syso
+</code></pre></li>
+
+<li><p>main.go中加入引用</p>
+
+<pre><code class="language-go">import _ &quot;xxx/syso&quot;
+</code></pre></li>
+
+<li><p>go build 生成的exe就会有图标了</p></li>
+</ol>
 
 </div>
             <div class="footer">

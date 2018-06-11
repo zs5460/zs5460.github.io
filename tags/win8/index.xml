@@ -13,10 +13,10 @@
     
     <item>
       <title>win8.1右键菜单反应慢的解决方法</title>
-      <link>https://zs5460.github.io/post/win8-right-key-slowly/</link>
+      <link>https://zs5460.github.io/posts/win8-right-key-slowly/</link>
       <pubDate>Mon, 25 May 2015 15:42:07 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/post/win8-right-key-slowly/</guid>
+      <guid>https://zs5460.github.io/posts/win8-right-key-slowly/</guid>
       <description> 打开注册表
  依次展开：HKEY_CLASSES_ROOT\Directory\background\shellex\ContextMenuHandlers
  将ContextMenuHandlers注册表项目下除“New”注册表项目外的所有键值全部删除，一般就可以解决鼠标右键反应慢的问题了。
