@@ -10,8 +10,8 @@
     
     <meta name="generator" content="Hugo 0.41" />
     
-    <title>FFMpeg常用参数说明 &middot; zs5460</title>
-    <meta content="FFMpeg常用参数说明 - zs5460" property="og:title">
+    <title>Ffmpeg &middot; zs5460</title>
+    <meta content="Ffmpeg - zs5460" property="og:title">
     <meta content=" - " property="og:description">
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i|Roboto+Mono:300,300i,400,400i" rel="stylesheet">
@@ -32,7 +32,9 @@
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
-    
+    <!-- RSS -->
+    <link href="https://zs5460.github.io/tags/ffmpeg/index.xml" rel="alternate" type="application/rss+xml" title="zs5460" />
+    <link href="https://zs5460.github.io/tags/ffmpeg/index.xml" rel="feed" type="application/rss+xml" title="zs5460" />
 
 	</head>
     <body class=" ">
@@ -88,113 +90,20 @@
 </div>
 
         <div class="content container">
-            <div class="post">
-  <h1>FFMpeg常用参数说明</h1>
-  
-  <div class="col-sm-12 col-md-12">
-    <span class="text-left post-date meta">
+            <h1 class="title">Ffmpeg</h1>
+<ul class="posts">
+    <li>
+        <span>
+            <a href="https://zs5460.github.io/posts/ffmpeg/">FFMpeg常用参数说明</a>
             
-       
-        <i class="fas fa-calendar-alt"></i> Apr 10, 2016
-      
-      
-        
-        
-            in
+            <time class="pull-right post-list">Apr 10, 2016</time>    
             
-            
-                <a class="meta" href="/categories/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7">电脑技巧</a>
-                
-            
-        
-      
-      
-      
-        
-        
-            <br/>
-             <i class="fas fa-tags"></i>
-            
-            <a class="meta" href="/tags/ffmpeg">ffmpeg</a>
-        
-      
-      
-      <br/>
-      <i class="fas fa-clock"></i> 1 min read 
-      </span>  
-  </div>    
-  
-  
-
-<h2 id="主要参数">主要参数：</h2>
-
-<ul>
-<li>-i 设定输入流</li>
-<li>-f 设定输出格式</li>
-<li>-ss 开始时间</li>
+        </span>
+    </li>
 </ul>
 
-<h2 id="视频参数">视频参数：</h2>
-
-<ul>
-<li>-b 设定视频流量，默认为200Kbit/s</li>
-<li>-r 设定帧速率，默认为25</li>
-<li>-s 设定画面的宽与高,如640x360</li>
-<li>-aspect 设定画面的比例,4:3或1.3333</li>
-<li>-vn 不处理视频</li>
-<li>-vcodec 设定视频编解码器，未设定时则使用与输入流相同的编解码器</li>
-</ul>
-
-<h2 id="音频参数">音频参数：</h2>
-
-<ul>
-<li>-ar 设定采样率</li>
-<li>-ac 设定声音的Channel数</li>
-<li>-acodec 设定声音编解码器，未设定时则使用与输入流相同的编解码器</li>
-<li>-an 不处理音频</li>
-</ul>
-
-<h2 id="截取部份视频">截取部份视频</h2>
-
-<pre><code class="language-shell">ffmpeg -ss 00:00:07 -i a.mp4 -vcodec copy -acodec copy -t 00:03:29 b.mp4 -y
-</code></pre>
-
-<h2 id="单张图片转视频">单张图片转视频</h2>
-
-<pre><code class="language-shell">ffmpeg -f image2 -r 24 demo.jpg -vcodec libx264 demo.mp4
-</code></pre>
-
-<p>-r为帧率 24表示24帧/秒</p>
-
-<h2 id="合并视频">合并视频</h2>
-
-<p>先创建一个文本文件filelist.txt：</p>
-
-<pre><code>file 'mov1.mp4'
-file 'mov2.mp4'
-file 'mov3.mp4'
-</code></pre>
-
-<p>然后：</p>
-
-<pre><code class="language-shell">ffmpeg -f concat -i filelist.txt -c copy aio.mp4
-</code></pre>
-
-</div>
             <div class="footer">
-                <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/vbscript.min.js"></script>
-
-<script type="text/javascript">
-    hljs.configure({languages: []});
-    hljs.initHighlightingOnLoad();
-</script>
-
-    
-
+                
             </div>
         </div>
         

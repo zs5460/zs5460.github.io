@@ -6,10 +6,19 @@
     <description>Recent content in Tags on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 Jan 2016 14:24:05 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 Apr 2016 10:51:15 +0800</lastBuildDate>
     
 	<atom:link href="https://zs5460.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ffmpeg</title>
+      <link>https://zs5460.github.io/tags/ffmpeg/</link>
+      <pubDate>Sun, 10 Apr 2016 10:51:15 +0800</pubDate>
+      
+      <guid>https://zs5460.github.io/tags/ffmpeg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Golang</title>
@@ -21,11 +30,29 @@
     </item>
     
     <item>
+      <title>Toml</title>
+      <link>https://zs5460.github.io/tags/toml/</link>
+      <pubDate>Sun, 12 Jun 2016 15:16:44 +0800</pubDate>
+      
+      <guid>https://zs5460.github.io/tags/toml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Win8</title>
       <link>https://zs5460.github.io/tags/win8/</link>
       <pubDate>Sat, 02 Apr 2016 15:42:07 +0800</pubDate>
       
       <guid>https://zs5460.github.io/tags/win8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>配置文件</title>
+      <link>https://zs5460.github.io/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Sun, 12 Jun 2016 15:16:44 +0800</pubDate>
+      
+      <guid>https://zs5460.github.io/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</guid>
       <description></description>
     </item>
     

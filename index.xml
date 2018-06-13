@@ -6,10 +6,22 @@
     <description>Recent content on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 10 Apr 2016 10:51:15 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jun 2016 15:16:44 +0800</lastBuildDate>
     
 	<atom:link href="https://zs5460.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TOML配置文件格式简介</title>
+      <link>https://zs5460.github.io/posts/toml/</link>
+      <pubDate>Sun, 12 Jun 2016 15:16:44 +0800</pubDate>
+      
+      <guid>https://zs5460.github.io/posts/toml/</guid>
+      <description>TOML是Tom&amp;rsquo;s Obvious, Minimal Language的缩写，是一种简明配置语言，作者是Tom Preston-Werner.
+最新版: v0.4.0.
+目标 TOML的目标是成为一种易于阅读的、语义明显的、最简短的配置文件格式。 TOML被设计为无歧义地映射到散列表。TOML可以很容易的解析到各种语言的数据结构。
+示例 # This is a TOML document. title = &amp;quot;TOML Example&amp;quot; [owner] name = &amp;quot;Tom Preston-Werner&amp;quot; dob = 1979-05-27T07:32:00-08:00 # First class dates [database] server = &amp;quot;192.168.1.1&amp;quot; ports = [ 8001, 8001, 8002 ] connection_max = 5000 enabled = true [servers] # Indentation (tabs and/or spaces) is allowed but not required [servers.alpha] ip = &amp;quot;10.0.0.1&amp;quot; dc = &amp;quot;eqdc10&amp;quot; [servers.beta] ip = &amp;quot;10.</description>
+    </item>
     
     <item>
       <title>FFMpeg常用参数说明</title>

@@ -100,6 +100,19 @@
         </div>
     
       <div class="post">
+        <h1 class="post-title"><a href="https://zs5460.github.io/posts/toml/">TOML配置文件格式简介</a></h1>
+        <span class="post-date">Jun 12, 2016</span>
+        TOML是Tom&rsquo;s Obvious, Minimal Language的缩写，是一种简明配置语言，作者是Tom Preston-Werner.
+最新版: v0.4.0.
+目标 TOML的目标是成为一种易于阅读的、语义明显的、最简短的配置文件格式。 TOML被设计为无歧义地映射到散列表。TOML可以很容易的解析到各种语言的数据结构。
+示例 # This is a TOML document. title = &quot;TOML Example&quot; [owner] name = &quot;Tom Preston-Werner&quot; dob = 1979-05-27T07:32:00-08:00 # First class dates [database] server = &quot;192.168.1.1&quot; ports = [ 8001, 8001, 8002 ] connection_max = 5000 enabled = true [servers] # Indentation (tabs and/or spaces) is allowed but not required [servers.alpha] ip = &quot;10.0.0.1&quot; dc = &quot;eqdc10&quot; [servers.beta] ip = &quot;10.
+        
+        <div class="read-more-link">
+            <a href="/posts/toml/">Read More…</a>
+        </div>
+        
+        </div>
+      <div class="post">
         <h1 class="post-title"><a href="https://zs5460.github.io/posts/ffmpeg/">FFMpeg常用参数说明</a></h1>
         <span class="post-date">Apr 10, 2016</span>
         主要参数：  -i 设定输入流 -f 设定输出格式 -ss 开始时间  视频参数：  -b 设定视频流量，默认为200Kbit/s -r 设定帧速率，默认为25 -s 设定画面的宽与高,如640x360 -aspect 设定画面的比例,4:3或1.3333 -vn 不处理视频 -vcodec 设定视频编解码器，未设定时则使用与输入流相同的编解码器  音频参数：  -ar 设定采样率 -ac 设定声音的Channel数 -acodec 设定声音编解码器，未设定时则使用与输入流相同的编解码器 -an 不处理音频  截取部份视频 ffmpeg -ss 00:00:07 -i a.mp4 -vcodec copy -acodec copy -t 00:03:29 b.mp4 -y  单张图片转视频 ffmpeg -f image2 -r 24 demo.jpg -vcodec libx264 demo.mp4  -r为帧率 24表示24帧/秒
