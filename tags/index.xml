@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on zs5460</title>
-    <link>https://zs5460.github.io/tags/</link>
+    <link>https://www.54600.net/tags/</link>
     <description>Recent content in Tags on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 10 Apr 2016 10:51:15 +0800</lastBuildDate>
     
-	<atom:link href="https://zs5460.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.54600.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ffmpeg</title>
-      <link>https://zs5460.github.io/tags/ffmpeg/</link>
+      <link>https://www.54600.net/tags/ffmpeg/</link>
       <pubDate>Sun, 10 Apr 2016 10:51:15 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/tags/ffmpeg/</guid>
+      <guid>https://www.54600.net/tags/ffmpeg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://zs5460.github.io/tags/golang/</link>
+      <link>https://www.54600.net/tags/golang/</link>
       <pubDate>Sun, 31 Jan 2016 14:24:05 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/tags/golang/</guid>
+      <guid>https://www.54600.net/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Toml</title>
-      <link>https://zs5460.github.io/tags/toml/</link>
+      <link>https://www.54600.net/tags/toml/</link>
       <pubDate>Sun, 12 Jun 2016 15:16:44 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/tags/toml/</guid>
+      <guid>https://www.54600.net/tags/toml/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Win8</title>
-      <link>https://zs5460.github.io/tags/win8/</link>
+      <link>https://www.54600.net/tags/win8/</link>
       <pubDate>Sat, 02 Apr 2016 15:42:07 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/tags/win8/</guid>
+      <guid>https://www.54600.net/tags/win8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>配置文件</title>
-      <link>https://zs5460.github.io/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</link>
+      <link>https://www.54600.net/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</link>
       <pubDate>Sun, 12 Jun 2016 15:16:44 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://www.54600.net/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</guid>
       <description></description>
     </item>
     

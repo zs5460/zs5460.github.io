@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zs5460</title>
-    <link>https://zs5460.github.io/</link>
+    <link>https://www.54600.net/</link>
     <description>Recent content on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 12 Jun 2016 15:16:44 +0800</lastBuildDate>
     
-	<atom:link href="https://zs5460.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.54600.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TOML配置文件格式简介</title>
-      <link>https://zs5460.github.io/posts/toml/</link>
+      <link>https://www.54600.net/posts/toml/</link>
       <pubDate>Sun, 12 Jun 2016 15:16:44 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/posts/toml/</guid>
+      <guid>https://www.54600.net/posts/toml/</guid>
       <description>TOML是Tom&amp;rsquo;s Obvious, Minimal Language的缩写，是一种简明配置语言，作者是Tom Preston-Werner.
 最新版: v0.4.0.
 目标 TOML的目标是成为一种易于阅读的、语义明显的、最简短的配置文件格式。 TOML被设计为无歧义地映射到散列表。TOML可以很容易的解析到各种语言的数据结构。
@@ -25,10 +25,10 @@
     
     <item>
       <title>FFMpeg常用参数说明</title>
-      <link>https://zs5460.github.io/posts/ffmpeg/</link>
+      <link>https://www.54600.net/posts/ffmpeg/</link>
       <pubDate>Sun, 10 Apr 2016 10:51:15 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/posts/ffmpeg/</guid>
+      <guid>https://www.54600.net/posts/ffmpeg/</guid>
       <description>主要参数：  -i 设定输入流 -f 设定输出格式 -ss 开始时间  视频参数：  -b 设定视频流量，默认为200Kbit/s -r 设定帧速率，默认为25 -s 设定画面的宽与高,如640x360 -aspect 设定画面的比例,4:3或1.3333 -vn 不处理视频 -vcodec 设定视频编解码器，未设定时则使用与输入流相同的编解码器  音频参数：  -ar 设定采样率 -ac 设定声音的Channel数 -acodec 设定声音编解码器，未设定时则使用与输入流相同的编解码器 -an 不处理音频  截取部份视频 ffmpeg -ss 00:00:07 -i a.mp4 -vcodec copy -acodec copy -t 00:03:29 b.mp4 -y  单张图片转视频 ffmpeg -f image2 -r 24 demo.jpg -vcodec libx264 demo.mp4  -r为帧率 24表示24帧/秒
 合并视频 先创建一个文本文件filelist.txt：
 file &#39;mov1.mp4&#39; file &#39;mov2.mp4&#39; file &#39;mov3.</description>
@@ -36,10 +36,10 @@ file &#39;mov1.mp4&#39; file &#39;mov2.mp4&#39; file &#39;mov3.</description>
     
     <item>
       <title>win8.1右键菜单反应慢的解决方法</title>
-      <link>https://zs5460.github.io/posts/win8-right-key-slowly/</link>
+      <link>https://www.54600.net/posts/win8-right-key-slowly/</link>
       <pubDate>Sat, 02 Apr 2016 15:42:07 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/posts/win8-right-key-slowly/</guid>
+      <guid>https://www.54600.net/posts/win8-right-key-slowly/</guid>
       <description> 打开注册表
  依次展开：HKEY_CLASSES_ROOT\Directory\background\shellex\ContextMenuHandlers
  将ContextMenuHandlers注册表项目下除“New”注册表项目外的所有键值全部删除，一般就可以解决鼠标右键反应慢的问题了。
@@ -48,20 +48,20 @@ file &#39;mov1.mp4&#39; file &#39;mov2.mp4&#39; file &#39;mov3.</description>
     
     <item>
       <title>整数分区速查表</title>
-      <link>https://zs5460.github.io/posts/integer-partition-cheat-sheet/</link>
+      <link>https://www.54600.net/posts/integer-partition-cheat-sheet/</link>
       <pubDate>Thu, 11 Feb 2016 11:14:14 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/posts/integer-partition-cheat-sheet/</guid>
+      <guid>https://www.54600.net/posts/integer-partition-cheat-sheet/</guid>
       <description>下面是10GB到200GB整数分区计算结果：
  20 GB ＝ 20482 MB 30 GB ＝ 30726 MB 40 GB ＝ 40963 MB 50 GB ＝ 51208 MB 60 GB ＝ 61444 MB 80 GB ＝ 81926 MB 100 GB ＝ 102407 MB 120 GB ＝ 122888 MB 150 GB ＝ 153606 MB 160 GB ＝ 163843 MB 180 GB ＝ 184324 MB 200 GB ＝ 204806 MB  </description>
     </item>
     
     <item>
       <title>Go生成带图标的控制台程序</title>
-      <link>https://zs5460.github.io/posts/go-build-with-icon/</link>
+      <link>https://www.54600.net/posts/go-build-with-icon/</link>
       <pubDate>Sun, 31 Jan 2016 14:24:05 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/posts/go-build-with-icon/</guid>
+      <guid>https://www.54600.net/posts/go-build-with-icon/</guid>
       <description> 准备工作  获取rsrc
 go get github.com/akavel/rsrc  建立favicon.manifest文件,内容如下：
 &amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt; &amp;lt;assembly xmlns=&amp;quot;urn:schemas-microsoft-com:asm.v1&amp;quot; manifestVersion=&amp;quot;1.0&amp;quot; xmlns:asmv3=&amp;quot;urn:schemas-microsoft-com:asm.v3&amp;quot;&amp;gt; &amp;lt;assemblyIdentity version=&amp;quot;1.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; name=&amp;quot;SomeFunkyNameHere&amp;quot; type=&amp;quot;win32&amp;quot;/&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;dependentAssembly&amp;gt; &amp;lt;assemblyIdentity type=&amp;quot;win32&amp;quot; name=&amp;quot;Microsoft.Windows.Common-Controls&amp;quot; version=&amp;quot;6.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; publicKeyToken=&amp;quot;6595b64144ccf1df&amp;quot; language=&amp;quot;*&amp;quot;/&amp;gt; &amp;lt;/dependentAssembly&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;asmv3:application&amp;gt; &amp;lt;asmv3:windowsSettings xmlns=&amp;quot;http://schemas.microsoft.com/SMI/2005/WindowsSettings&amp;quot;&amp;gt; &amp;lt;dpiAware&amp;gt;true&amp;lt;/dpiAware&amp;gt; &amp;lt;/asmv3:windowsSettings&amp;gt; &amp;lt;/asmv3:application&amp;gt; &amp;lt;/assembly&amp;gt;  运行rsrc，生成syso
@@ -74,10 +74,10 @@ import _ &amp;quot;xxx/syso&amp;quot;  go build 生成的exe就会有图标了
     
     <item>
       <title>关于</title>
-      <link>https://zs5460.github.io/about/</link>
+      <link>https://www.54600.net/about/</link>
       <pubDate>Sun, 20 May 2012 13:14:00 +0800</pubDate>
       
-      <guid>https://zs5460.github.io/about/</guid>
+      <guid>https://www.54600.net/about/</guid>
       <description>其实，并没有什么好说的</description>
     </item>
     
