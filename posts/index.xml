@@ -72,5 +72,18 @@ import _ &amp;quot;xxx/syso&amp;quot;  go build 生成的exe就会有图标了
   </description>
     </item>
     
+    <item>
+      <title>用Mkvtoolnix批量移除音轨和字幕</title>
+      <link>https://www.54600.net/posts/mkvtoolnix/</link>
+      <pubDate>Sat, 05 Sep 2015 09:00:53 +0800</pubDate>
+      
+      <guid>https://www.54600.net/posts/mkvtoolnix/</guid>
+      <description>最近下了个动画片剧集，有日语、国语、粤语3个音轨，而且默认音轨是日语，每看一集都要重新选下音轨，很是麻烦。于是就想批量处理一下，网上一搜，还真有这样的工具，叫作mkvtoolnix。
+MKVToolNix是一套功能强大的mkv(Matroska)格式制作和处理的工具，支持将多种视频、音频、字幕等格式封装成mkv格式，支持提取mkv内音频及字幕到文件。
+mkvmerge是其中的一个命令行程序，直接运行有详细的参数说明：
+-o 输出文件 -a n,m 复制n,m号音轨 -A 不复制音轨 -s n,m 复制n,m号字幕 -S 不复制字幕  于是运行一个试试，保留2号国语音轨，不要字幕：
+mkvmerge -a 2 -S E01.mkv -o new\E01.mkv  测试一下，通过！ 单集转换10秒的样子。 再写个批处理，不到20分钟全剧转换完成！</description>
+    </item>
+    
   </channel>
 </rss>

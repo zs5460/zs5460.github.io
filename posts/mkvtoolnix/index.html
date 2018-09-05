@@ -10,8 +10,8 @@
     
     <meta name="generator" content="Hugo 0.41" />
     
-    <title>电脑技巧 &middot; zs5460</title>
-    <meta content="电脑技巧 - zs5460" property="og:title">
+    <title>用Mkvtoolnix批量移除音轨和字幕 &middot; zs5460</title>
+    <meta content="用Mkvtoolnix批量移除音轨和字幕 - zs5460" property="og:title">
     <meta content=" - " property="og:description">
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i|Roboto+Mono:300,300i,400,400i" rel="stylesheet">
@@ -32,9 +32,7 @@
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
-    <!-- RSS -->
-    <link href="https://www.54600.net/categories/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/index.xml" rel="alternate" type="application/rss+xml" title="zs5460" />
-    <link href="https://www.54600.net/categories/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/index.xml" rel="feed" type="application/rss+xml" title="zs5460" />
+    
 
 	</head>
     <body class=" ">
@@ -90,34 +88,83 @@
 </div>
 
         <div class="content container">
-            <h1 class="title">电脑技巧</h1>
-<ul class="posts">
-    <li>
-        <span>
-            <a href="https://www.54600.net/posts/ffmpeg/">FFMpeg常用参数说明</a>
+            <div class="post">
+  <h1>用Mkvtoolnix批量移除音轨和字幕</h1>
+  
+  <div class="col-sm-12 col-md-12">
+    <span class="text-left post-date meta">
             
-            <time class="pull-right post-list">Apr 10, 2016</time>    
+       
+        <i class="fas fa-calendar-alt"></i> Sep 5, 2015
+      
+      
+        
+        
+            in
             
-        </span>
-    </li><li>
-        <span>
-            <a href="https://www.54600.net/posts/win8-right-key-slowly/">win8.1右键菜单反应慢的解决方法</a>
             
-            <time class="pull-right post-list">Apr 2, 2016</time>    
-            
-        </span>
-    </li><li>
-        <span>
-            <a href="https://www.54600.net/posts/mkvtoolnix/">用Mkvtoolnix批量移除音轨和字幕</a>
-            
-            <time class="pull-right post-list">Sep 5, 2015</time>    
-            
-        </span>
-    </li>
-</ul>
-
-            <div class="footer">
+                <a class="meta" href="/categories/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7">电脑技巧</a>
                 
+            
+        
+      
+      
+      
+        
+        
+            <br/>
+             <i class="fas fa-tags"></i>
+            
+            <a class="meta" href="/tags/mkv">mkv</a> 
+        
+            <a class="meta" href="/tags/mkvmerge">mkvmerge</a> 
+        
+            <a class="meta" href="/tags/mkvtoolnix">mkvtoolnix</a>
+        
+      
+      
+      <br/>
+      <i class="fas fa-clock"></i> 1 min read 
+      </span>  
+  </div>    
+  
+  <p>最近下了个动画片剧集，有日语、国语、粤语3个音轨，而且默认音轨是日语，每看一集都要重新选下音轨，很是麻烦。于是就想批量处理一下，网上一搜，还真有这样的工具，叫作<a href="https://mkvtoolnix.download/downloads.html">mkvtoolnix</a>。</p>
+
+<p>MKVToolNix是一套功能强大的mkv(Matroska)格式制作和处理的工具，支持将多种视频、音频、字幕等格式封装成mkv格式，支持提取mkv内音频及字幕到文件。</p>
+
+<p>mkvmerge是其中的一个命令行程序，直接运行有详细的参数说明：</p>
+
+<pre><code class="language-shell">-o      输出文件
+-a n,m  复制n,m号音轨
+-A      不复制音轨
+-s n,m  复制n,m号字幕
+-S      不复制字幕
+</code></pre>
+
+<p>于是运行一个试试，保留2号国语音轨，不要字幕：</p>
+
+<pre><code class="language-shell">mkvmerge -a 2 -S E01.mkv -o new\E01.mkv
+</code></pre>
+
+<p>测试一下，通过！
+单集转换10秒的样子。
+再写个批处理，不到20分钟全剧转换完成！</p>
+
+</div>
+            <div class="footer">
+                <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/vbscript.min.js"></script>
+
+<script type="text/javascript">
+    hljs.configure({languages: []});
+    hljs.initHighlightingOnLoad();
+</script>
+
+    
+
             </div>
         </div>
         
