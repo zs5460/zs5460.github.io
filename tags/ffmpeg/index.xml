@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ffmpeg on zs5460</title>
-    <link>https://www.54600.net/tags/ffmpeg/</link>
+    <link>https://zs5460.github.io/tags/ffmpeg/</link>
     <description>Recent content in Ffmpeg on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 10 Apr 2016 10:51:15 +0800</lastBuildDate>
     
-	<atom:link href="https://www.54600.net/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zs5460.github.io/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>FFMpeg常用参数说明</title>
-      <link>https://www.54600.net/posts/ffmpeg/</link>
+      <link>https://zs5460.github.io/posts/ffmpeg/</link>
       <pubDate>Sun, 10 Apr 2016 10:51:15 +0800</pubDate>
       
-      <guid>https://www.54600.net/posts/ffmpeg/</guid>
+      <guid>https://zs5460.github.io/posts/ffmpeg/</guid>
       <description>主要参数：  -i 设定输入流 -f 设定输出格式 -ss 开始时间  视频参数：  -b 设定视频流量，默认为200Kbit/s -r 设定帧速率，默认为25 -s 设定画面的宽与高,如640x360 -aspect 设定画面的比例,4:3或1.3333 -vn 不处理视频 -vcodec 设定视频编解码器，未设定时则使用与输入流相同的编解码器  音频参数：  -ar 设定采样率 -ac 设定声音的Channel数 -acodec 设定声音编解码器，未设定时则使用与输入流相同的编解码器 -an 不处理音频  截取部份视频 ffmpeg -ss 00:00:07 -i a.mp4 -vcodec copy -acodec copy -t 00:03:29 b.mp4 -y  单张图片转视频 ffmpeg -f image2 -r 24 demo.jpg -vcodec libx264 demo.mp4  -r为帧率 24表示24帧/秒
 合并视频 先创建一个文本文件filelist.txt：
 file &#39;mov1.mp4&#39; file &#39;mov2.mp4&#39; file &#39;mov3.</description>

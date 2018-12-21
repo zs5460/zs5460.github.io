@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on zs5460</title>
-    <link>https://www.54600.net/tags/golang/</link>
+    <link>https://zs5460.github.io/tags/golang/</link>
     <description>Recent content in Golang on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 31 Jan 2016 14:24:05 +0800</lastBuildDate>
     
-	<atom:link href="https://www.54600.net/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zs5460.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Go生成带图标的控制台程序</title>
-      <link>https://www.54600.net/posts/go-build-with-icon/</link>
+      <link>https://zs5460.github.io/posts/go-build-with-icon/</link>
       <pubDate>Sun, 31 Jan 2016 14:24:05 +0800</pubDate>
       
-      <guid>https://www.54600.net/posts/go-build-with-icon/</guid>
+      <guid>https://zs5460.github.io/posts/go-build-with-icon/</guid>
       <description> 准备工作  获取rsrc
 go get github.com/akavel/rsrc  建立favicon.manifest文件,内容如下：
 &amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt; &amp;lt;assembly xmlns=&amp;quot;urn:schemas-microsoft-com:asm.v1&amp;quot; manifestVersion=&amp;quot;1.0&amp;quot; xmlns:asmv3=&amp;quot;urn:schemas-microsoft-com:asm.v3&amp;quot;&amp;gt; &amp;lt;assemblyIdentity version=&amp;quot;1.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; name=&amp;quot;SomeFunkyNameHere&amp;quot; type=&amp;quot;win32&amp;quot;/&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;dependentAssembly&amp;gt; &amp;lt;assemblyIdentity type=&amp;quot;win32&amp;quot; name=&amp;quot;Microsoft.Windows.Common-Controls&amp;quot; version=&amp;quot;6.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; publicKeyToken=&amp;quot;6595b64144ccf1df&amp;quot; language=&amp;quot;*&amp;quot;/&amp;gt; &amp;lt;/dependentAssembly&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;asmv3:application&amp;gt; &amp;lt;asmv3:windowsSettings xmlns=&amp;quot;http://schemas.microsoft.com/SMI/2005/WindowsSettings&amp;quot;&amp;gt; &amp;lt;dpiAware&amp;gt;true&amp;lt;/dpiAware&amp;gt; &amp;lt;/asmv3:windowsSettings&amp;gt; &amp;lt;/asmv3:application&amp;gt; &amp;lt;/assembly&amp;gt;  运行rsrc，生成syso

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mkvtoolnix on zs5460</title>
-    <link>https://www.54600.net/tags/mkvtoolnix/</link>
+    <link>https://zs5460.github.io/tags/mkvtoolnix/</link>
     <description>Recent content in Mkvtoolnix on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 05 Sep 2015 09:00:53 +0800</lastBuildDate>
     
-	<atom:link href="https://www.54600.net/tags/mkvtoolnix/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zs5460.github.io/tags/mkvtoolnix/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用Mkvtoolnix批量移除音轨和字幕</title>
-      <link>https://www.54600.net/posts/mkvtoolnix/</link>
+      <link>https://zs5460.github.io/posts/mkvtoolnix/</link>
       <pubDate>Sat, 05 Sep 2015 09:00:53 +0800</pubDate>
       
-      <guid>https://www.54600.net/posts/mkvtoolnix/</guid>
+      <guid>https://zs5460.github.io/posts/mkvtoolnix/</guid>
       <description>最近下了个动画片剧集，有日语、国语、粤语3个音轨，而且默认音轨是日语，每看一集都要重新选下音轨，很是麻烦。于是就想批量处理一下，网上一搜，还真有这样的工具，叫作mkvtoolnix。
 MKVToolNix是一套功能强大的mkv(Matroska)格式制作和处理的工具，支持将多种视频、音频、字幕等格式封装成mkv格式，支持提取mkv内音频及字幕到文件。
 mkvmerge是其中的一个命令行程序，直接运行有详细的参数说明：

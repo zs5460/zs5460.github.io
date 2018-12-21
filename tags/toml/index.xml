@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Toml on zs5460</title>
-    <link>https://www.54600.net/tags/toml/</link>
+    <link>https://zs5460.github.io/tags/toml/</link>
     <description>Recent content in Toml on zs5460</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 12 Jun 2016 15:16:44 +0800</lastBuildDate>
     
-	<atom:link href="https://www.54600.net/tags/toml/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zs5460.github.io/tags/toml/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TOML配置文件格式简介</title>
-      <link>https://www.54600.net/posts/toml/</link>
+      <link>https://zs5460.github.io/posts/toml/</link>
       <pubDate>Sun, 12 Jun 2016 15:16:44 +0800</pubDate>
       
-      <guid>https://www.54600.net/posts/toml/</guid>
+      <guid>https://zs5460.github.io/posts/toml/</guid>
       <description>TOML是Tom&amp;rsquo;s Obvious, Minimal Language的缩写，是一种简明配置语言，作者是Tom Preston-Werner.
 最新版: v0.4.0.
 目标 TOML的目标是成为一种易于阅读的、语义明显的、最简短的配置文件格式。 TOML被设计为无歧义地映射到散列表。TOML可以很容易的解析到各种语言的数据结构。
