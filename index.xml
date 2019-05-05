@@ -35,6 +35,20 @@ file &#39;mov1.mp4&#39; file &#39;mov2.mp4&#39; file &#39;mov3.</description>
     </item>
     
     <item>
+      <title>win10右键菜单添加在此处运行CMD</title>
+      <link>https://zs5460.github.io/posts/win10-right-key-run-cmd-here/</link>
+      <pubDate>Sun, 03 Apr 2016 15:42:07 +0800</pubDate>
+      
+      <guid>https://zs5460.github.io/posts/win10-right-key-run-cmd-here/</guid>
+      <description>win10取消了右键“在此处运行CMD”，改成了powershell，这个东西虽然功能多，但我用不上，而且启动速度比CMD慢多了。那怎么恢复CMD呢？
+ 打开注册表
+ 依次展开：HKEY_CLASSES_ROOT\Directory\background\shell
+ 新建项“Run CMD Here”，在右边新建字符串值“Icon”，值为“cmd.exe”。
+ 新建子项“command”，默认值为cmd.exe /s /k pushd &amp;quot;%V&amp;quot;
+  </description>
+    </item>
+    
+    <item>
       <title>win8.1右键菜单反应慢的解决方法</title>
       <link>https://zs5460.github.io/posts/win8-right-key-slowly/</link>
       <pubDate>Sat, 02 Apr 2016 15:42:07 +0800</pubDate>
@@ -63,13 +77,11 @@ file &#39;mov1.mp4&#39; file &#39;mov2.mp4&#39; file &#39;mov3.</description>
       
       <guid>https://zs5460.github.io/posts/go-build-with-icon/</guid>
       <description> 准备工作  获取rsrc
-go get github.com/akavel/rsrc  建立favicon.manifest文件,内容如下：
-&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt; &amp;lt;assembly xmlns=&amp;quot;urn:schemas-microsoft-com:asm.v1&amp;quot; manifestVersion=&amp;quot;1.0&amp;quot; xmlns:asmv3=&amp;quot;urn:schemas-microsoft-com:asm.v3&amp;quot;&amp;gt; &amp;lt;assemblyIdentity version=&amp;quot;1.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; name=&amp;quot;SomeFunkyNameHere&amp;quot; type=&amp;quot;win32&amp;quot;/&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;dependentAssembly&amp;gt; &amp;lt;assemblyIdentity type=&amp;quot;win32&amp;quot; name=&amp;quot;Microsoft.Windows.Common-Controls&amp;quot; version=&amp;quot;6.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; publicKeyToken=&amp;quot;6595b64144ccf1df&amp;quot; language=&amp;quot;*&amp;quot;/&amp;gt; &amp;lt;/dependentAssembly&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;asmv3:application&amp;gt; &amp;lt;asmv3:windowsSettings xmlns=&amp;quot;http://schemas.microsoft.com/SMI/2005/WindowsSettings&amp;quot;&amp;gt; &amp;lt;dpiAware&amp;gt;true&amp;lt;/dpiAware&amp;gt; &amp;lt;/asmv3:windowsSettings&amp;gt; &amp;lt;/asmv3:application&amp;gt; &amp;lt;/assembly&amp;gt;  运行rsrc，生成syso
-rsrc -manifest favicon.manifest -o myapp.syso -ico myapp.ico   实战  在项目根目录下建立syso目录，并将myapp.syso拷贝至目录下
+go get github.com/akavel/rsrc   建立favicon.manifest文件,内容如下：   &amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt; &amp;lt;assembly xmlns=&amp;quot;urn:schemas-microsoft-com:asm.v1&amp;quot; manifestVersion=&amp;quot;1.0&amp;quot; xmlns:asmv3=&amp;quot;urn:schemas-microsoft-com:asm.v3&amp;quot;&amp;gt; &amp;lt;assemblyIdentity version=&amp;quot;1.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; name=&amp;quot;SomeFunkyNameHere&amp;quot; type=&amp;quot;win32&amp;quot;/&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;dependentAssembly&amp;gt; &amp;lt;assemblyIdentity type=&amp;quot;win32&amp;quot; name=&amp;quot;Microsoft.Windows.Common-Controls&amp;quot; version=&amp;quot;6.0.0.0&amp;quot; processorArchitecture=&amp;quot;*&amp;quot; publicKeyToken=&amp;quot;6595b64144ccf1df&amp;quot; language=&amp;quot;*&amp;quot;/&amp;gt; &amp;lt;/dependentAssembly&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;asmv3:application&amp;gt; &amp;lt;asmv3:windowsSettings xmlns=&amp;quot;http://schemas.microsoft.com/SMI/2005/WindowsSettings&amp;quot;&amp;gt; &amp;lt;dpiAware&amp;gt;true&amp;lt;/dpiAware&amp;gt; &amp;lt;/asmv3:windowsSettings&amp;gt; &amp;lt;/asmv3:application&amp;gt; &amp;lt;/assembly&amp;gt;  运行rsrc，生成syso
+rsrc -manifest favicon.manifest -o myapp.syso -ico myapp.ico  实战  在项目根目录下建立syso目录，并将myapp.syso拷贝至目录下
  在syso目录下新建syso.go，内容如下：
-package syso  main.go中加入引用
-import _ &amp;quot;xxx/syso&amp;quot;  go build 生成的exe就会有图标了
-  </description>
+package syso   main.go中加入引用
+import _ &amp;quot;xxx/syso&amp;quot;   go build 生成的exe就会有图标了   </description>
     </item>
     
     <item>

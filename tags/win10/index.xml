@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>win10 on zs5460</title>
+    <link>https://zs5460.github.io/tags/win10/</link>
+    <description>Recent content in win10 on zs5460</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 03 Apr 2016 15:42:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://zs5460.github.io/tags/win10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>win10右键菜单添加在此处运行CMD</title>
+      <link>https://zs5460.github.io/posts/win10-right-key-run-cmd-here/</link>
+      <pubDate>Sun, 03 Apr 2016 15:42:07 +0800</pubDate>
+      
+      <guid>https://zs5460.github.io/posts/win10-right-key-run-cmd-here/</guid>
+      <description>win10取消了右键“在此处运行CMD”，改成了powershell，这个东西虽然功能多，但我用不上，而且启动速度比CMD慢多了。那怎么恢复CMD呢？
+ 打开注册表
+ 依次展开：HKEY_CLASSES_ROOT\Directory\background\shell
+ 新建项“Run CMD Here”，在右边新建字符串值“Icon”，值为“cmd.exe”。
+ 新建子项“command”，默认值为cmd.exe /s /k pushd &amp;quot;%V&amp;quot;
+  </description>
+    </item>
+    
+  </channel>
+</rss>
